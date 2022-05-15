@@ -1,0 +1,8 @@
+@use "functions";
+
+$bg-color1: #120c56;
+$bg-color2: #000;
+$grad: linear-gradient(0, $bg-color1, $bg-color2);
+$width: 500px;
+$stars1: functions.boxShadow(80, 1400, 500, #fff);
+$stars2: functions.boxShadow(100, 1400, 500, #fff);

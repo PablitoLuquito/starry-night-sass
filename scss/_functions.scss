@@ -1,0 +1,11 @@
+@function boxShadow($amount, $hori, $vert, $color) {
+  $result: null;
+  @for $i from 0 to $amount {
+    $result: append(
+      $result,
+      (#{random($hori)}px #{random($vert)}px #{$color}),
+      comma
+    );
+  }
+  @return $result;
+}
